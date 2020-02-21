@@ -1,0 +1,26 @@
+{
+    "name": "pacoruina/lobby-wars",
+    "require": {
+        "php": "^7.1.0",
+        "symfony/console": "^4.2",
+        "pimple/pimple": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "LobbyWars\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LobbyWars\\": "tests/unit",
+            "LobbyWars\\Tests\\Functional\\": "tests/functional"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
